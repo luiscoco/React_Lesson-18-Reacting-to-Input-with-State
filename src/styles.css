@@ -1,0 +1,39 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f0f4f8;
+  color: #111;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 2px solid #2563eb;
+  color: #2563eb;
+}
+
+.error { color: red; margin-top: 1rem; }
+.success { border: 2px solid #16a34a; }
+footer { margin-top: 2rem; text-align: center; color: #555; }
